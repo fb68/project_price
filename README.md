@@ -6,7 +6,7 @@ Il utilise un scraper web pour collecter les données, gère les variations de p
 
 Le code prend les saisies des utilisateurs pour rechercher des produits chez Auchan et Carrefour. Pour la comparaison des prix, ce projet prend en compte les comportements d'achat des utilisateurs. Il se compose de 2 modes:
 1. Manuel - cela permet aux utilisateurs de choisir manuellement leurs articles préférés
-2. 2. Automatique - cela choisit automatiquement l'article au prix le plus bas
+2. Automatique - cela choisit automatiquement l'article au prix le plus bas
 
 La structure de ce projet est composée de 4 parties :
 
