@@ -15,7 +15,7 @@ Nous avons choisi Selenium pour ce projet. En exécutant le code, les utilisateu
 # 2. Comparaison des Prix
 Après la récupération des données, le script enregistre les informations sur le type de produit, le nom du produit, le magasin, le prix et la date dans le fichier CSV (si le fichier CSV n'existe pas, il le crée automatiquement). Les données stockées dans le fichier CSV est ensuite utilisées pour visualiser le variation des prix des produits sélectionnés entre la recherche précédente et la recherche récente. S'il n'y a aucun changement depuis la dernière recherche, il nous précise que le prix n'a pas varié depuis la dernière fois. Cela s'applique aux modes manuel et automatique.
 # 3. Interface/Dashboard
-Streamlit, qui est une application web en open-source, a été choisie comme plateforme pour notre projet.
+Streamlit, qui est une application web en open-source, a été choisie comme plateforme pour notre projet. Veuillez noter que cette interface fonctionne uniquement en mode Automatique.
 Pour lancer Streamlit :
 (1)En Python : pip install streamlit
 (2)Dans votre Commandes/Anaconda prompt:
@@ -37,6 +37,10 @@ Une fois que le code a terminé l'analyse, il envoie un rapport par email indiqu
 
 - **email_manager.py**: Le fichier `email_manager.py` contient la classe `EmailManager`. Elle gère l'envoi d'e-mails contenant les informations de comparaison de prix entre Auchan et Carrefour.
 
+- **BaseInterface.py**: Ce fichier est le fichier d'origine qui a servi de brouillon pour se connecter au fichier d'interface (Interface.py)
+- 
+- **Interface.py**: Le fichier Streamlit pour l'interface utilisateur
+- 
 - **Autres fichiers**: En plus de ces fichiers principaux, d'autres modules et fichiers peuvent être présents pour des fonctionnalités spécifiques ou des utilitaires.
 
 ## Utilisation
@@ -45,7 +49,8 @@ Pour utiliser ce projet, suivez les instructions suivantes :
 1. Exécutez `main.py` pour démarrer la comparaison de prix.
 2. Suivez les invites pour entrer votre liste de courses et sélectionner les produits à comparer.
 3. Les résultats seront affichés, et vous recevrez un e-mail de comparaison des prix.
-
+4. (Pour utiliser l'interface) entrer votre liste de courses et sélectionner mode Automatique
+   
 N'hésitez pas à explorer les fichiers individuels pour plus de détails sur chaque composant de l'application.
 
 Pour des informations plus détaillées sur l'utilisation et les fonctionnalités, consultez le code source de chaque fichier.
