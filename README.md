@@ -19,9 +19,9 @@ Streamlit, qui est une application web en open-source, a été choisie comme pla
 Pour lancer Streamlit :
 (1)En Python : pip install streamlit
 (2)Dans votre Commandes/Anaconda prompt:
-cd chemin/vers/le/répertoire/de/votre/projet
-conda activate base
-streamlit run Stream_lit_V1.py
+cd path/to/your/project/directory >
+conda activate base > 
+streamlit run Interface.py
 (3)Par défaut, cela ouvrira un nouvel onglet dans votre navigateur web avec l'adresse http://localhost:8501
 # 4. Rapport par Email
 Une fois que le code a terminé l'analyse, il envoie un rapport par email indiquant le prix des produits dans les deux magasins, lequel des deux magasins est moins cher pour ces produits, combien d'argent l'utilisateur peut économiser et les produits qui ont eu des variations de leurs prix la dernière recherche de l'utilisateur.
