@@ -15,7 +15,7 @@ Nous avons choisi Selenium pour ce projet. En exécutant le code, les utilisateu
 # 2. Comparaison des Prix
 Après la récupération des données, le script enregistre les informations sur le type de produit, le nom du produit, le magasin, le prix et la date dans le fichier CSV (si le fichier CSV n'existe pas, il le crée automatiquement). Les données stockées dans le fichier CSV est ensuite utilisées pour visualiser le variation des prix des produits sélectionnés entre la recherche précédente et la recherche récente. S'il n'y a aucun changement depuis la dernière recherche, il nous précise que le prix n'a pas varié depuis la dernière fois. Cela s'applique aux modes manuel et automatique.
 # 3. Interface/Dashboard
-Streamlit, qui est une application web en open-source, a été choisie comme plateforme pour notre projet. Veuillez noter que cette interface fonctionne uniquement en mode Automatique et cela n'est pas entièrement fonctionnel pour le mode Manuel.
+Streamlit, qui est une application web en open-source, a été choisie comme plateforme pour notre projet. Veuillez noter que cette interface fonctionne uniquement en mode Automatique et cela n'est pas entièrement opérationnel pour le mode Manuel.
 Pour lancer Streamlit :
 (1) En Python : pip install streamlit
 (2) Dans votre Commandes/Anaconda prompt:
