@@ -1,5 +1,5 @@
 # Project : Comparateur de Paniers Supermarchés
-Ce projet fait partie du programme du cours Architectures et Langages de Données : Programmation Avancée du Master 2 - Data Science de la Faculté des Sciences Économiques et de Gestion, Université de Strasbourg.
+Ce projet fait partie du programme du cours Architectures et Langages de Données : Advanced Programming du Master 2 - Data Science de la Faculté des Sciences Économiques et de Gestion, Université de Strasbourg.
 
 Ce projet vise à résoudre les difficultés liées à l'augmentation drastique du coût de la vie. Avec l'augmentation de l'inflation ces dernières années, de nombreuses personnes pourraient avoir du mal à survivre financièrement dans de telles circonstances. Notre Comparateur de Paniers Supermarchés permet aux utilisateurs d'avoir un aperçu des prix de leur panier d'achat dans différents supermarchés. Les principales chaînes de supermarchés en France (Auchan et Carrefour) ont été choisies pour ce projet.
 
