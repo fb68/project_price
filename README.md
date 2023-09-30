@@ -7,7 +7,7 @@ Le code prend les saisies des utilisateurs pour rechercher des produits chez Auc
           (1) Manuel - cela permet aux utilisateurs de choisir manuellement leurs articles préférés
           (2) Automatique - cela choisit automatiquement l'article au prix le plus bas
 
-La structure de ce projet est composée de 4 parties : [####ce n'est pas la version finale.]
+La structure de ce projet est composée de 4 parties :
 
 # 1. Web-Scrapping
 Nous avons choisi Selenium pour ce projet. En exécutant le code, les utilisateurs doivent saisir le(s) article(s) qu'ils souhaitent acheter. Ils peuvent entrer un ou plusieurs produits (séparés par une virgule (,)). Pour effectuer les étapes suivantes de ce projet, nous avons extrait les données des sites Web des différents supermarchés (Auchan et Carrefour). Dans le cas d'Auchan, la localisation géographique et la connexion sont requises et nous avons choisi la succursale d'Auchan située près du centre de Strasbourg. Le script effectue l'automatisation Web et fait défiler progressivement les pages Web.
@@ -25,5 +25,4 @@ streamlit run Stream_lit_V1.py
 # 4. Rapport par Email
 Une fois que le code a terminé l'analyse, il envoie un rapport par email indiquant le prix des produits dans les deux magasins, lequel des deux magasins est moins cher pour ces produits, combien d'argent l'utilisateur peut économiser et quel est le taux d'inflation depuis la dernière recherche de l'utilisateur.
 # Nos équipes
-BATINA-AGASA Fervent
-PROMWANG Nattirat
+Fervent BATINA-AGASA et Nattirat PROMWANG
