@@ -1,4 +1,3 @@
-
 import streamlit as st
 from selenium.common.exceptions import ElementClickInterceptedException
 from selenium.common.exceptions import NoSuchElementException
@@ -16,8 +15,8 @@ def fetch_prices_safely(fetch_function, driver, product_list):
 #To display selected products with names and pricea
 def display_selected_products(products, store_name):
     st.write(f"Selected {store_name} Products:")
-    #for product, (name, price) in products.items():
-        #st.write(f"{product}: {name} - {price}€")
+    for product, (name, price) in products.items():
+        st.write(f"{product}: {name} - {price}€")
 
 def main(driver):
     try:
