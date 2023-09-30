@@ -57,7 +57,7 @@ Pour des informations plus détaillées sur l'utilisation et les fonctionnalité
 
 **Note** : 
 - Assurez-vous d'avoir les bibliothèques Python nécessaires installées en utilisant `pip install -r requirements.txt`.
-- Avant d'exécuter `main.py`, vous devez compléter votre adresse mail dans "recipient_email" pour recevoir le mail de comparaison des prix
+- Avant d'exécuter `main.py`, vous devez compléter votre adresse mail dans "recipient_email" pour recevoir le mail de comparaison des prix. Les identifiants de Auchan ont été créés spécialement pour ce projet
 - Pour une meilleur utilisation, exécutez ce code dans un environnement de développement Python plutôt que directement dans le terminal.
 
 # Notre équipe
