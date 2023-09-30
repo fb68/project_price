@@ -37,8 +37,6 @@ Une fois que le code a terminé l'analyse, il envoie un rapport par email indiqu
 
 - **email_manager.py**: Le fichier `email_manager.py` contient la classe `EmailManager`. Elle gère l'envoi d'e-mails contenant les informations de comparaison de prix entre Auchan et Carrefour.
 
-- **BaseInterface.py**: Ce fichier `BaseInterface.py` est le fichier d'origine qui a servi de brouillon pour se connecter au fichier d'interface (Interface.py)
-  
 - **Interface.py**: Le fichier `Interface.py` Streamlit pour l'interface utilisateur
   
 - **Autres fichiers**: En plus de ces fichiers principaux, d'autres modules et fichiers peuvent être présents pour des fonctionnalités spécifiques ou des utilitaires.
