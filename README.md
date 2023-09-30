@@ -50,9 +50,10 @@ N'hésitez pas à explorer les fichiers individuels pour plus de détails sur ch
 
 Pour des informations plus détaillées sur l'utilisation et les fonctionnalités, consultez le code source de chaque fichier.
 
-**Note** : - Assurez-vous d'avoir les bibliothèques Python nécessaires installées en utilisant `pip install -r requirements.txt`.
-           - Avant d'exécuter `main.py`, vous devez compléter votre adresse mail dans "recipient_email" pour recevoir le mail de                comparaison des prix
-           - Pour une meilleur utilisation, exécutez ce code dans un environnement de développement Python plutôt que directement               dans le terminal.
+**Note** : 
+- Assurez-vous d'avoir les bibliothèques Python nécessaires installées en utilisant `pip install -r requirements.txt`.
+- Avant d'exécuter `main.py`, vous devez compléter votre adresse mail dans "recipient_email" pour recevoir le mail de comparaison des prix
+- Pour une meilleur utilisation, exécutez ce code dans un environnement de développement Python plutôt que directement dans le terminal.
 
-# Nos équipes
-Fervent BATINA-AGASA et Nattirat PROMWANG
+# Notre équipe
+Fervent BATINA AGASA et Nattirat PROMWANG
