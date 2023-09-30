@@ -24,4 +24,6 @@ streamlit run Stream_lit_V1.py
 (3)Par défaut, cela ouvrira un nouvel onglet dans votre navigateur web avec l'adresse http://localhost:8501
 # 4. Rapport par Email
 Une fois que le code a terminé l'analyse, il envoie un rapport par email indiquant le prix des produits dans les deux magasins, lequel des deux magasins est moins cher pour ces produits, combien d'argent l'utilisateur peut économiser et quel est le taux d'inflation depuis la dernière recherche de l'utilisateur.
-
+# Nos équipes
+BATINA-AGASA Fervent 
+PROMWANG Nattirat
