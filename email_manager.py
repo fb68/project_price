@@ -56,7 +56,7 @@ class EmailManager:
         port = 587
         sender_email = 'ferventbatina07@gmail.com'
         sender_password = 'qttovcccoqqgteem'
-        recipient_email = 'projetpythonm2@gmail.com'
+        recipient_email = 'saisir_votre_mail'
         
         email_body = self.create_email_body(df_auchan, df_carrefour, savings, auchan_msg, carrefour_msg)
         
