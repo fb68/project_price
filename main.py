@@ -74,11 +74,8 @@ def main(driver):
             product_name_carrefour, price_carrefour = carrefour_prices[choice_carrefour-11]
     
             # Utilisation des instances pour gérer les prix et la variation des prix
-            auchan_variation_msg = auchan_price_manager.check_price_variation(product_name_auchan, price_auchan)
-            carrefour_variation_msg = carrefour_price_manager.check_price_variation(product_name_carrefour, price_carrefour)
-    
-            print(auchan_variation_msg)
-            print(carrefour_variation_msg)
+            auchan_msg = auchan_price_manager.check_price_variation(product_name_auchan, price_auchan, today_date)
+            carrefour_msg = carrefour_price_manager.check_price_variation(product_name_carrefour, price_carrefour, today_date)
     
             shopping_list_auchan.append((product_name_auchan, price_auchan))
             shopping_list_carrefour.append((product_name_carrefour, price_carrefour))
@@ -118,7 +115,9 @@ def main(driver):
     else:
         store = "Carrefour"
         savings_msg = f"Si vous allez chez Carrefour, vous économiserez {savings:.2f}€"
-
+        
+    print(auchan_msg)
+    print(carrefour_msg)
     email_manager.send_email_with_hotmail(df_auchan, df_carrefour, savings_msg, auchan_msg, carrefour_msg)
 
 if __name__ == "__main__":
